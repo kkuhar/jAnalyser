@@ -1,0 +1,195 @@
+*****************
+calendar.js
+*****************
+67: getMouseXY(e) {
+82: getScrollXY() {
+107: cel(obj){ return d.createElement(obj);  }
+108: sa(obj, atname, atprop){ return  obj.setAttribute(atname, atprop);  }
+109: appendc(obj, elem){ return  obj.appendChild(elem); }
+110: cNode(obj, txt){ return obj.appendChild(d.createTextNode(txt)); }
+111: getID(elem){ return d.getElementById(elem); }
+123: getDaysInMonth(mnt, yr)
+390: createBase()
+406: createCalendarElements()
+427: modMonth(newY, newM)
+433: newDay(newD)
+438: modYear(way)
+452: fPopCalendar(param)
+507: fPopCalendar1(param)
+562: orderData()
+608: fillBackDate(tDay, tMonth, tYear)
+658: closeCalendar()
+663: fallsilent(){}
+*****************
+choose.js
+*****************
+1: chooseBolovanje(caption,message,command,buttons,resfunc){
+70: closemsgboxChoose(btnval,msgobj,frm){
+77: radioClicked(rb) 
+*****************
+Common.js
+*****************
+2: PotvrdiSve()
+34: odbaciRukovoditelj()
+44: ajaxFunctionPotvrdiRavnatelj()
+112: setSifraOJCombo() {
+145: setMjesecObracunaIObracunskiPeriodCombo() {
+164: common_rukovoditelj_SumarnaTablicaList()
+496: cursorTablice()
+526: cursorTabliceRK()
+557: KeyCheck(polje)
+759: getXMLObject()  //XML OBJECT
+795: ajaxFunctionOdbaciPotvrdi(id)
+895: zadavanjeMjesecaEvidencije(elm)
+923: ajaxFunctionPosalji()
+965: UnosPodataka(id)
+976: handleServerResponse() {
+1006: odrzavanje_evidTablicaPromjena(value,id)
+1030: parsiranjeAnalitikeISumarne_povijest()
+1140: ispunjavanje_analitike()
+1597: ispunjavanje_analitikeAjax(msg)
+2133: pokazi_analitiku()
+*****************
+CommonET.js
+*****************
+6: dateDiff(date1,date2)
+24: chackInsertTime(date1,date2)
+47: sumDate(time1,time2)
+58: twelveHoursWorkingTime(dateFull1,dateFull2,id,diffTime)
+88: eightHoursWorkingTime(dateFull1,dateFull2,id,sifraOJ)
+468: caldate(dateFull1,dateFull2,id) {
+541: caldateNeradniDan(dateFull1,dateFull2,id)
+608: zbrojiVrijeme(id)
+639: submit_odrzavanje_dropDown(elem)
+653: setSifraOJCombo() {
+669: setBrojZaposlenikaCombo() {
+686: setPeridOdCombo() {
+694: setPeridDoCombo() {
+703: izbrisiperiodOd()
+707: izmjena_djelatnik()
+714: tisak_referent(comm)
+722: ispis_djelatnik()
+727: potvrdi_djelatnik()
+732: potvrdi_djelatnik_dnevno()
+737: ajaxPotvrdaDnevno() {
+964: nazad_djelatnik()
+969: ajaxPotvrda() {
+1264: potvrdiUnos_djelatnik()
+1269: odbaciUnos_djelatnik()
+1277: tisak_djelatnik()
+1293: auto_djelatnik()
+1359: otvori_novi_red()
+1385: ispisi_red(broj)
+1394: nenazocnost_umanjivanje(id)
+1606: nenazocnost_umanjivanje_dnevno(id)
+1820: prisIzvanRad_umanjivanje(id)
+1890: prisIzvanRad_umanjivanje_dnevno(id)
+1941: bolovanjeVikend(id)
+1972: porodiljniVikend(id)
+2020: neplaceniDopustBlagdan(id)
+2057: rk_cursor(elem)
+*****************
+dialog_box.js
+*****************
+7: pageWidth() {
+12: pageHeight() {
+17: topPosition() {
+22: leftPosition() {
+27: showDialog(title,message,type,autohide) {
+99: hideDialog() {
+106: fadeDialog(flag) {
+*****************
+jquery-1.3.2.js
+*****************
+543: evalScript( i, elem ) {
+558: now(){
+1266: num(elem, prop) {
+2253: dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML ) {
+2289: dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML ) {
+2820: returnFalse(){
+2823: returnTrue(){
+2989: liveHandler( event ){
+3014: liveConvert(type, selector){
+3047: bindReady(){
+3776: genFx( type, num ){
+*****************
+msgbox.js
+*****************
+1: msgboxWarning(caption,message,command,buttons,resfunc){
+58: closemsgbox(btnval,msgobj){
+*****************
+msgboxChoose.js
+*****************
+1: msgboxChoose(caption,message,command,buttons,resfunc){
+85: closemsgboxChoose(btnval,msgobj,frm){
+92: radioClicked(rb)
+*****************
+msgboxChooseDnevno.js
+*****************
+1: msgboxChooseDnevno(caption,message,command,buttons,resfunc){
+86: closemsgboxChoose(btnval,msgobj,frm){
+93: radioClicked(rb)
+*****************
+msgboxET.js
+*****************
+1: msgboxWarning(caption,message,command,buttons,resfunc){
+68: closemsgboxW(btnval,msgobj){
+75: msgboxWarningPrint(caption,message,command,buttons,resfunc){
+165: closemsgboxP(btnval,msgobj,comm){
+181: msgboxWarning1(caption,message,command,buttons,resfunc){
+378: msgboxDnevniUnos(caption,message,command,buttons,resfunc){
+544: msgboxWarningPrisutnost(caption,message,command,buttons,resfunc){
+609: closemsgboxPrisutnost(btnval,msgobj){
+*****************
+odrzavanje.js
+*****************
+1: submit_odrzavanje_dropDown(elem)
+15: odrzavanje_isbrisiRed(prvaCelija)
+33: odrzavanje_evidTablicaPress(elem)
+48: odrzavanje_cursor(elem)
+56: ajaxFunction_odrzavanje_AnalitickaPodaci(buttonCommand) 
+234: ajaxFunction_odrzavanje_AnalitickaPodaciSpremi(buttonCommand) 
+412: odrzavanje_BrisiSve()
+473: odrzavanje_nadopunaVrsteRada()
+501: ajaxFunction_odrzavanje_SumarnaPodaci(buttonCommand) 
+542: ajaxFunction_odrzavanje_SumarnaPodaci_izracunaj(data)
+628: ajaxFunction_odrzavanje_SumarnaPodaci_prihvati(data)
+658: odrzavanje_print(naslov,analiticka,sumarna)
+713: vrijeme()
+*****************
+paging.js
+*****************
+*****************
+povijest.js
+*****************
+1: submit_povijest_dropDown(elem)
+15: povijest_print(naslov,povijestPrint)
+114: vrijeme_povijest()
+160: povjest_pokaziTablice(call_id, call_name)
+182: povjest_mjesecaEvidencije(elem)
+201: prijelomTiskaStranice(evidSati_id)
+*****************
+ppTablicaDnevno.js
+*****************
+1: bolovanjeVikendDnevno(id)
+32: porodiljniVikendDnevno(id)
+82: neopravdaniVikendDnevno(id)
+120: zbrojiVrijemeDnevno(id)
+153: caldateNeradniDanDnev(dateFull1,dateFull2,id)
+223: caldate(dateFull1,dateFull2,id) 
+294: chackInsertTime(date1,date2)
+315: sumDate(time1,time2)
+327: twelveHoursWorkingTime(dateFull1,dateFull2,id,diffTime)
+359: eightHoursWorkingTime(dateFull1,dateFull2,id,sifraOJ)
+691: dateDiff(date1,date2)
+709: prisIzvanRad_dnevno(id)
+*****************
+prijepis.js
+*****************
+2: submit_prijepis_dropDownOJ_zaIzvjescaj(elm,comm)
+13: ajaxFunction_prijepis_prepisiUPis()
+*****************
+rukovoditelj.js
+*****************
+1: printdiv(printpage1,printpage2)
+99: vrijeme()
